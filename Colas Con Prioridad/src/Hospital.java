@@ -15,7 +15,6 @@ public class Hospital {
 			String prioridad;
 			char c;
 			int num;
-			Association a=new Association(null);
 			
 			leer = new BufferedReader(new FileReader("pacientes.txt"));
 			String cadena= leer.readLine();

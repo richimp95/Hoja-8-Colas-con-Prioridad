@@ -7,6 +7,7 @@ public class  VectorHeap<E extends Comparable<E>> implements PriorityQueue<E> {
 	// post: constructs a new priority queue
 	{
 		data = new Vector<E>();
+		
 	}
 
 	public VectorHeap(Vector<E> v)
@@ -109,25 +110,23 @@ public class  VectorHeap<E extends Comparable<E>> implements PriorityQueue<E> {
 		return minVal;
 	}
 
-	@Override
+
 	public E getFirst() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	@Override
+
 	public boolean isEmpty() {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
-	@Override
 	public int size() {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
-	@Override
 	public void clear() {
 		// TODO Auto-generated method stub
 		

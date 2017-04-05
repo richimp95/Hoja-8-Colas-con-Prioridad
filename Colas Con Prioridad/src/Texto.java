@@ -32,8 +32,9 @@ public class Texto {
 	}
 	
 
-	public void Leer(VectorHeap<Paciente<String, String, String>> v) throws IOException {
-		
+	//public void Leer(VectorHeap<Paciente<String, String, String>> v) throws IOException { 
+	//<<<<<<<<<Solo para VectorHeap>>>>>>>>>>>
+	public void Leer(VectorHeapJCF<Paciente<String, String, String>> v) throws IOException {	
 		String cadena1;
 		
 		// Leer los datos del paciente

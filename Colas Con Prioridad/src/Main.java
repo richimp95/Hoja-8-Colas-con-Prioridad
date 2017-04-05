@@ -18,7 +18,9 @@ public class Main {
 		
 		// Variables
 		Texto text = new Texto();
-		VectorHeap<Paciente<String, String, String>> v = new VectorHeap<>();
+		//VectorHeap<Paciente<String, String, String>> v = new VectorHeap<>();  
+		//<<<<<<<<<Solo para VectorHeap>>>>>>>>>>>
+		VectorHeapJCF<Paciente<String, String, String>> v = new VectorHeapJCF<>();
 		
 		// Lee el archivo de texto e ingresa los datos del paciente a un VectorHeap
 		text.Leer(v);
